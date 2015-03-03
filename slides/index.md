@@ -1,10 +1,4 @@
 
 # Developing Web Applications
-
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+### Lecture 6 - IMT4006 Intro to Research on Web Technologies
+By Terje Krogstad, assistant professor GUC/HiG
