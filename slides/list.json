@@ -38,5 +38,7 @@
         "detecting-properties.html",
         "polyfilling-with-modernizr.html"
     ],
+    "workshop.html",
+    "workshop-part-ii.html",
     "references.html"
 ]
