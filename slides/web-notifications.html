@@ -1,0 +1,11 @@
+<h2>Web Notifications</h2>
+
+<p>Native notifications (Growl messages on MacOS, Android Notifications etc.)</p>
+
+<pre>
+    <code class="javascript">
+    Notification.requestPermission( function(status) {
+      var n = new Notification("Hey you", {body: "Lorem ipsum dalet anem!"}); // this also shows the notification
+    });
+    </code>
+</pre>

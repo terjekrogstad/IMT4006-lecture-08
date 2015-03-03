@@ -1,0 +1,23 @@
+<h2>Detecting Features</h2>
+
+<div>
+<p>Testing for a certain element with an element's property:</p>
+<pre>
+    <code class="javascript">
+    if( ! ( 'open' in document.createElement( 'details' ) ) ){
+        // Does not have native support, polyfill it!
+    }
+    </code>
+</pre>
+</div>
+
+<div class="fragment roll-in">
+<p>Testing for an API</p>
+<pre>
+    <code class="javascript">
+    if ( typeof window.localStorage == 'undefined' || typeof window.sessionStorage == 'undefined' )
+        // Does not have native support, polyfill it!
+    }    
+    </code>
+</pre>
+</div>

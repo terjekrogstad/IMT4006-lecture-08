@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Developing Web Applications</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+    
+        <link rel="stylesheet" href="css/theme.css" id="theme">
+    
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-markdown="slides/index.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/topics.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/topics-ii.html"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/experimental-and-future-apis.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/file-api.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/device-apis.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/web-notifications.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/webrtc.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/are-they-ready-yet.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/security-in-web-applications.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/web-security-in-general.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/threats.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/threats-ii.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/threats-iii.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/threats-iv.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/security-concepts.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/security-concepts-ii.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/security-concepts-iii.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/transport-layer-security.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/application-layer-security.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/application-layer-security-ii.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/web-service-security.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/service-based-authentication-and-authorization.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/xml-signature.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/xml-encryption.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/certificates.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/saml.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/saml-and-sso.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/ws-security.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/ws-trust.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/polyfilling.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/detecting-properties.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/polyfilling-with-modernizr.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-html="slides/references.html"></section>
+
+
+                    
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                parallaxBackgroundImage     : 'http://upload.wikimedia.org/wikipedia/commons/f/f7/H%C3%B8gskolen_i_Gj%C3%B8vik_med_hovedbygningen.jpg',
+                parallaxBackgroundSize      :'4876px 3255px', 
+                viewDistance : 5,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'slide', // default/cube/page/concave/zoom/linear/fade/none
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
