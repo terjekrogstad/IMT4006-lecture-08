@@ -6,6 +6,7 @@
         "experimental-and-future-apis.html",
         "file-api.html",
         "device-apis.html",
+        "interaction-apis.html",
         "web-notifications.html",
         "webrtc.html",
         "are-they-ready-yet.html"
